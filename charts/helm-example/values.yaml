@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   pullPolicy: IfNotPresent
-  repository: testacon.azurecr.io/my-app
+  repository: testacon.azurecr.io/my-app:13029
 
 imagePullSecrets: []
 nameOverride: ""
